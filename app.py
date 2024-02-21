@@ -7,7 +7,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 CORS(app)
-db = SQLAlchemy(app)
+db = SQLAlchemy(app)jj
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
